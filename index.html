@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Do you like me?</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        button { padding: 10px 20px; font-size: 18px; margin: 10px; }
+    </style>
+</head>
+<body>
+
+<h1>Do you like me? 💖</h1>
+<button onclick="answer('yes')">Yes 😊</button>
+<button onclick="answer('no')">No 😢</button>
+
+<p id="response"></p>
+
+<script>
+function answer(choice) {
+    document.getElementById("response").innerHTML = "I love you ❤️";
+}
+</script>
+
+</body>
+</html>
